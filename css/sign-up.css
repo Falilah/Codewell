@@ -55,6 +55,14 @@ form input {
   margin: 10% 0;
   align-content: center;
 }
+.copy {
+  font-size: 120%;
+  text-align: center;
+  color: #6c757d;
+  background: #dec9e9;
+  padding-bottom: 1%;
+}
+
 @media only screen and (min-width: 1024px) {
   body {
     display: grid;
