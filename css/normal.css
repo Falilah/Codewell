@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@600&family=Source+Sans+Pro:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(0.25turn, #cdb4db, 10%, #f8f9fa, #f8f9fa);
+  color: #6c757d;
+  font-size: 150%;
+  padding-top: 1%;
+}
+nav ul {
+  display: none;
+  margin: 0;
+  padding: 0;
+  background-color: #cdb4db;
+}
+.hamburger {
+  float: right;
+  margin-right: 5%;
+  clear: right;
+}
+nav {
+  padding-right: 4%;
+  margin-top: -10vw;
+}
+header {
+  margin: 2%;
+}
+nav a {
+  display: block;
+  padding: 0.6rem 1rem;
+  padding-left: 3rem;
+  text-align: right;
+  font-weight: 300;
+  font-size: 120%;
+}
+
+.first-section,
+.header {
+  padding: 4%;
+  padding-bottom: 10%;
+}
+.second-section {
+  background: #fff;
+  background-size: contain;
+  padding-bottom: 10%;
+
+  padding: 4%;
+}
+.personal h3,
+.curate h3,
+.access h3 {
+  font-size: 250%;
+  margin: 5% 0;
+  color: #000;
+  width: 70%;
+}
+
+.signUp {
+  background: #4361ee;
+  padding: 1rem;
+  color: #fdfdfd;
+  text-decoration: none;
+  border-radius: 4%;
+}
+.sign {
+  margin: 10% 0;
+}
+.mock-up {
+  margin: 5% 0;
+}
+.arrow {
+  color: blue;
+}
+a {
+  text-decoration: none;
+  color: #6c757d;
+}
+li {
+  list-style-type: none;
+}
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  background: #f5f3f4;
+  padding: 5%;
+}
+.first {
+  flex-basis: 70%;
+}
+.row {
+  flex-basis: 50%;
+  justify-content: space-between;
+  margin: 5% 0;
+}
+.love {
+  margin: 5% 0;
+}
+.row li {
+  margin: 3% 0;
+}
+h5,
+h4 {
+  color: #000;
+}

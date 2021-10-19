@@ -1,0 +1,76 @@
+/* ************styling the sign-up page*********** */
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@600&family=Source+Sans+Pro:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #dec9e9;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 2%;
+}
+
+article {
+  margin: 0 5%;
+  font-size: 120%;
+}
+article section {
+  padding: 0% 5%;
+}
+.form {
+  margin-top: 5%;
+  background: #f8f9fa;
+  padding: 10% 5% 1% 5%;
+
+  margin-bottom: 2%;
+}
+form label {
+  display: block;
+}
+form input {
+  line-height: 4rem;
+  width: 80%;
+  margin-bottom: 5%;
+}
+.check {
+  display: block;
+}
+.signUp {
+  background: #4361ee;
+  padding: 1rem 5%;
+  color: #fdfdfd;
+  text-decoration: none;
+  border-radius: 2%;
+  width: 100%;
+  /* font-size: 100%; */
+}
+.col1 {
+  display: flex;
+}
+.sign {
+  margin: 10% 0;
+  align-content: center;
+}
+@media only screen and (min-width: 1024px) {
+  body {
+    display: grid;
+    /* height: 80vh; */
+  }
+  article {
+    display: flex;
+  }
+  .text {
+    margin-top: 10%;
+    font-size: 120%;
+  }
+  .text h3 {
+    font-size: 200%;
+  }
+  .col1 {
+    padding-bottom: 10%;
+  }
+}

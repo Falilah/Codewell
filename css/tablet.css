@@ -1,0 +1,62 @@
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 150%;
+  }
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    background: none;
+  }
+  .hamburger {
+    display: none;
+  }
+  nav {
+    margin-top: -7%;
+    padding-top: 1%;
+  }
+  nav a {
+    padding: 0;
+  }
+  nav ul li {
+    padding-left: 5%;
+  }
+  .feed {
+    margin-left: 25%;
+  }
+  .social {
+    margin-top: 10%;
+  }
+  .personal h3,
+  .curate h3,
+  .access h3 {
+    width: 100%;
+    /* font-size: 260%; */
+  }
+  .sign {
+    margin: 5% 0;
+  }
+  .curate,
+  .access {
+    padding-right: 10%;
+  }
+  .second-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+  .row1 {
+    flex-basis: 50%;
+  }
+  footer {
+    justify-content: flex-end;
+  }
+  .first {
+    flex-basis: 50%;
+  }
+  .row {
+    flex-basis: 25%;
+    padding-left: 5%;
+    margin-top: -1%;
+  }
+}

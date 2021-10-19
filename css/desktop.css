@@ -1,0 +1,20 @@
+@media only screen and (min-width: 1024px) {
+  nav ul {
+    display: flex;
+  }
+  .hamburger {
+    display: none;
+  }
+  .first-section {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0;
+  }
+  .feed {
+    margin-right: 20%;
+    margin-left: 5%;
+  }
+  footer {
+    flex-wrap: nowrap;
+  }
+}
