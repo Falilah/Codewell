@@ -24,17 +24,18 @@ article section {
 .form {
   margin-top: 5%;
   background: #f8f9fa;
-  padding: 10% 5% 1% 5%;
-
+  padding: 5% 5% 1% 5%;
   margin-bottom: 2%;
+  border: solid 0.5rem #dec9e9;
 }
 form label {
   display: block;
 }
 form input {
-  line-height: 4rem;
-  width: 80%;
+  line-height: 2.5rem;
+  width: 90%;
   margin-bottom: 5%;
+  border: solid 0.1rem #f8f9fa;
 }
 .check {
   display: block;
@@ -46,10 +47,14 @@ form input {
   text-decoration: none;
   border-radius: 2%;
   width: 100%;
-  /* font-size: 100%; */
+  border: solid 0.5rem #f8f9fa;
 }
 .col1 {
   display: flex;
+  padding-bottom: 2%;
+}
+.text h3 {
+  padding-bottom: 2%;
 }
 .sign {
   margin: 10% 0;
@@ -66,14 +71,16 @@ form input {
 @media only screen and (min-width: 1024px) {
   body {
     display: grid;
-    /* height: 80vh; */
+  }
+  header {
+    margin-bottom: -5%;
   }
   article {
     display: flex;
   }
   .text {
     margin-top: 10%;
-    font-size: 120%;
+    font-size: 1.5rem;
   }
   .text h3 {
     font-size: 200%;

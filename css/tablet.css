@@ -2,10 +2,13 @@
   body {
     font-size: 150%;
   }
-  nav ul {
+  .hidden {
     display: flex;
+  }
+  nav ul {
     justify-content: flex-end;
     background: none;
+    margin-left: 0;
   }
   .hamburger {
     display: none;
@@ -16,10 +19,12 @@
   }
   nav a {
     padding: 0;
+    display: flex;
   }
   nav ul li {
     padding-left: 5%;
   }
+
   .feed {
     margin-left: 25%;
   }
@@ -30,7 +35,7 @@
   .curate h3,
   .access h3 {
     width: 100%;
-    /* font-size: 260%; */
+    font-size: 1.8rem;
   }
   .sign {
     margin: 5% 0;

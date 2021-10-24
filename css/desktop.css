@@ -1,14 +1,13 @@
 @media only screen and (min-width: 1024px) {
-  nav ul {
+  .hidden {
     display: flex;
   }
-  .hamburger {
-    display: none;
-  }
+
   .first-section {
     display: flex;
     flex-direction: row-reverse;
     margin: 0;
+    width: 100%;
   }
   .feed {
     margin-right: 20%;
