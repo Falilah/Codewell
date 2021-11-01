@@ -7,11 +7,12 @@
 }
 body {
   background: #dec9e9;
+  margin: 5% 0;
 }
 header {
   display: flex;
   justify-content: space-between;
-  margin: 2%;
+  margin: 3%;
 }
 
 article {

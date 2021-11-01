@@ -6,8 +6,11 @@
     display: flex;
   }
   nav ul {
+    display: flex;
     justify-content: flex-end;
     background: none;
+    margin: 0%;
+    padding: 0;
     margin-left: 0;
   }
   .hamburger {
@@ -39,6 +42,9 @@
   }
   .sign {
     margin: 5% 0;
+  }
+  .signUp {
+    margin: 0;
   }
   .curate,
   .access {
